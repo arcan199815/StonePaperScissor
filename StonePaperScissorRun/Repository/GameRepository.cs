@@ -1,4 +1,5 @@
-using StonePaperScissor.Repository.Interface;
+using Microsoft.Extensions.Logging;
+using StonePaperScissorRun.Repository.Interface;
 
 namespace StonePaperScissor.Services
 {
