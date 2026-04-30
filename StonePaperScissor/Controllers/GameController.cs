@@ -15,6 +15,11 @@ namespace StonePaperScissor.Controllers
         }
 
         [HttpGet]
+        public IActionResult GetAll() {
+            return Ok();
+        }
+
+        [HttpGet]
         public IActionResult GetGameById(int ids)
         {
             return Ok();
